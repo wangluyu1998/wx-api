@@ -1,7 +1,7 @@
 const titbit = require('titbit');
 const crypto = require('crypto');
 const parsexml = require('xml2js').parseString;
-const wxmsg = require('./weixinmsg');
+const wxmsg = require('./msghandle.js');
 
 var app = new titbit();
 
